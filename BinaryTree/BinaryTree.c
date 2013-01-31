@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "BinaryTree.h"
 
 tNode* initTree()
 {
-	return calloc(1, sizeof(tNode));
+	return (tNode*) calloc(1, sizeof(tNode));
 }
 
 void percursoPre(tNode *raiz)
