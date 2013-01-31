@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.sdf
 *.opensdf
 *.exe
@@ -13,3 +14,22 @@ Release
 
 **/*/Debug/*
 **/*/Release/*
+=======
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> 3eb06f55cdaaec9a14c8169384fbd68021ab0b6f
